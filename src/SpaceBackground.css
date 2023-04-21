@@ -1,0 +1,107 @@
+.spaceWrapper {
+    position: relative;
+  }
+  
+  .spaceCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  
+  .hero {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    color: #ffffff;
+  }
+  
+  .heroVideo {
+    max-width: 40%;
+    max-height: 40%;
+    border-radius: 50%;
+  }
+  
+  /* .description {
+    text-align: center;
+    margin-top: 20px;
+    max-width: 60%;
+    font-size: medium;
+    
+  } */
+   
+  .description {
+    font-size: 0.8rem;
+    line-height: 1.5;
+    color: #ffffff;
+    max-width: 60%;
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .description a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    text-decoration: underline;
+  }
+  
+  .description a:hover {
+    color: turquoise; /* Change this to your preferred hover color */
+
+  }
+  
+  .heroButtons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .heroButton {
+    background-color: rgba(34, 34, 68, 0.938);
+    color: #ffffff;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .heroButton:hover {
+    background-color:rgba(13, 13, 26, 1);
+  }
+  
+  .heroButton .svg-inline--fa {
+    margin-right: 5px;
+  }
+  
+  /* .contactButton {
+    position: fixed;
+    top: 20px;
+    right: 60px;
+    background-color: rgba(16, 16, 161, 0.911);
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .contactButton:hover {
+    background-color: rgba(13, 13, 26, 1);
+  }
+   */
