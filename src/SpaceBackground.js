@@ -80,8 +80,10 @@ const SpaceBackground = () => {
          {/* Add the contact button here
          <a href="mailto:ajjuism@gmail.com" className="contactButton">Contact</a> */}
         <video className="heroVideo" src="/src/video.mp4" autoPlay muted loop></video>
+        <div className="animatedBackground"></div>
+        <h1 className="heroHeading">Hey there, I'm Arjun!</h1>
         <p className="description">
-          Hey, I’m Arjun! I’m known by many names on the internet, but you can call me Aju / Ajjuism. I’m curious about everything that’s product related. <br /><br />
+          I’m known by many names on the internet, but you can call me Aju / Ajjuism. I’m curious about everything that’s product related. <br /><br />
           When I’m not working you can find me making music as <a href="https://open.spotify.com/artist/269gZQtoOtpGEeiK9Chz3f" target="_blank" rel="noopener noreferrer">Ōri</a> / <a href="https://open.spotify.com/artist/1r9YiAwgGIiXHrpQ3MwFFD" target="_blank" rel="noopener noreferrer">Parallel Highway</a> (Check out my Spotify. *Wink wink!*) and I take photos and create short films for my <a href="https://www.instagram.com/ajjuism/" target="_blank" rel="noopener noreferrer">Instagram</a> starring my friends (That’s also where I’m most active!). I’ve recently also developed an obsession for building stuff with AI. <br /><br />
           You can click the links below to check out some of my works.
         </p>

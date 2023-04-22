@@ -22,9 +22,15 @@
   }
   
   .heroVideo {
-    max-width: 40%;
-    max-height: 40%;
+    max-width: 35%;
+    max-height: 35%;
     border-radius: 50%;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+
+  }
+  
+  .heroVideo:hover {
+    transform: scale(1.1);
   }
   
   /* .description {
@@ -37,11 +43,14 @@
    
   .description {
     font-size: 0.8rem;
-    line-height: 1.5;
+    line-height: 1.2;
     color: #ffffff;
     max-width: 60%;
-    margin-top: 40px;
+    /* margin-top: 40px; */
     text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  
+
   }
   
   .description a {
@@ -60,28 +69,64 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin-top: 10px;
   }
   
   .heroButton {
-    background-color: rgba(34, 34, 68, 0.938);
+    background-color: rgba(17, 58, 80, 0.938);
     color: #ffffff;
     border: none;
-    border-radius: 2px;
+    border-radius: 50px;
     padding: 10px 20px;
     margin: 10px;
     cursor: pointer;
     display: flex;
     align-items: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+
   }
   
   .heroButton:hover {
-    background-color:rgba(13, 13, 26, 1);
+    background-color:rgba(14, 36, 48, 0.938);
+    transform: scale(1.1);
+    /* background-color: #6a11cb;  */
   }
   
   .heroButton .svg-inline--fa {
     margin-right: 5px;
   }
+
+  .heroHeading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* margin-bottom: 20px; */
+  }
+  
+  .animatedBackground {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(270deg, #131313, #0a1111, #1a1a1a);
+    background-size: 600% 600%;
+    animation: AnimationName 8s ease infinite;
+    z-index: -1;
+    opacity: 0.7;
+  }
+  
+  @keyframes AnimationName {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
   
   /* .contactButton {
     position: fixed;
