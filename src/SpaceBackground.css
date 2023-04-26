@@ -33,24 +33,15 @@
     transform: scale(1.1);
   }
   
-  /* .description {
-    text-align: center;
-    margin-top: 20px;
-    max-width: 60%;
-    font-size: medium;
-    
-  } */
-   
   .description {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     line-height: 1.2;
     color: #ffffff;
     max-width: 60%;
-    /* margin-top: 40px; */
+    margin-top: -10px;
     text-align: center;
+    font-weight: 300;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  
-
   }
   
   .description a {
@@ -61,7 +52,7 @@
   }
   
   .description a:hover {
-    color: turquoise; /* Change this to your preferred hover color */
+    color: turquoise; 
 
   }
   
@@ -89,7 +80,6 @@
   .heroButton:hover {
     background-color:rgba(14, 36, 48, 0.938);
     transform: scale(1.1);
-    /* background-color: #6a11cb;  */
   }
   
   .heroButton .svg-inline--fa {
@@ -126,7 +116,6 @@
       background-position: 0% 50%;
     }
   }
-  
   
   /* .contactButton {
     position: fixed;
