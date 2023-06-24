@@ -84,7 +84,6 @@ const SpaceBackground = () => {
         <h1 className="heroHeading">Hey there, I'm Arjun!👋</h1>
         <p className="description">
           I ask questions for a living and I do stuff on the internet for fun.
-          Peep my antics below.👇
         </p>
         <div className="heroButtons">
           <button className="heroButton">
