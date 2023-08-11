@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import './SpaceBackground.css';
-import { faMusic, faCamera, faBlog, faProjectDiagram } from '@fortawesome/free-solid-svg-icons';
+import { faMusic, faCamera } from '@fortawesome/free-solid-svg-icons';
+import { faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class Particle {
@@ -77,27 +78,33 @@ const SpaceBackground = () => {
   return (
     <div className="spaceWrapper">
       <div className="hero">
-         {/* Add the contact button here
-         <a href="mailto:ajjuism@gmail.com" className="contactButton">Contact</a> */}
         <video className="heroVideo" src="/src/video.mp4" autoPlay muted loop></video>
         <div className="animatedBackground"></div>
         <h1 className="heroHeading">Hey there, I'm Arjun!👋</h1>
         <p className="description">
           I ask questions for a living and I do stuff on the internet for fun.
         </p>
-        <div className="heroButtons">
-          <button className="heroButton">
-            <FontAwesomeIcon icon={faMusic} /> Music
-          </button>
-          <button className="heroButton">
-            <FontAwesomeIcon icon={faCamera} /> Photography
-          </button>
-          <button className="heroButton">
-            <FontAwesomeIcon icon={faBlog} /> Blog
-          </button>
-          <button className="heroButton">
-            <FontAwesomeIcon icon={faProjectDiagram} /> Projects
-          </button>
+            <div className="heroButtons">
+          <a href="https://open.spotify.com/artist/269gZQtoOtpGEeiK9Chz3f" target="_blank" rel="noopener noreferrer">
+            <button className="heroButton">
+              <FontAwesomeIcon icon={faMusic} /> Spotify
+            </button>
+          </a>
+          <a href="https://www.instagram.com/ajjuism/" target="_blank" rel="noopener noreferrer">
+            <button className="heroButton">
+              <FontAwesomeIcon icon={faCamera} /> Instagram
+            </button>
+          </a>
+          <a href="https://twitter.com/ajjuism" target="_blank" rel="noopener noreferrer">
+            <button className="heroButton">
+              <FontAwesomeIcon icon={faTwitter} /> Twitter
+            </button>
+          </a>
+          <a href="https://github.com/ajjuism" target="_blank" rel="noopener noreferrer">
+            <button className="heroButton">
+              <FontAwesomeIcon icon={faGithub} /> Github
+            </button>
+          </a>
         </div>
       </div>
       <canvas ref={canvasRef} className="spaceCanvas"></canvas>
