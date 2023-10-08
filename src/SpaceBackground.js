@@ -100,9 +100,9 @@ const SpaceBackground = () => {
               <FontAwesomeIcon icon={faTwitter} /> Twitter
             </button>
           </a>
-          <a href="https://github.com/ajjuism" target="_blank" rel="noopener noreferrer">
+          <a href="https://projects.ajjuism.com/" rel="noopener noreferrer">
             <button className="heroButton">
-              <FontAwesomeIcon icon={faGithub} /> Github
+              <FontAwesomeIcon icon={faGithub} /> Projects
             </button>
           </a>
         </div>
